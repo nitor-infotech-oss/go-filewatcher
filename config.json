@@ -1,0 +1,15 @@
+{
+  "naming": {
+      "prepend": "autogen"
+  },
+  "key": "XXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "secret": "XXXXXXXXXXXXXXXXXXXXXXXX",
+  "region": "us-east-2",
+  "sourcebucket": "bucket-001",
+  "sourcepath": "inputpath",
+  "archivalpath": "archival",
+  "destbucket": "bucket-002",
+  "destpath": "outputpath",
+  "webhookurl": "https://hooks.slack.com/services/TKDC1KVV1/XXXXXX/XXXXXXXXXXXXXX",
+  "regexrules": ["^20200801"]
+}
